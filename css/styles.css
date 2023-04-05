@@ -21,11 +21,17 @@
 .nav-left ul li {
     list-style: none;
     margin: 0 14px;
+    
 }
-
 .nav-left ul li a {
+    /* transition: all 0.3s ease-in-out; */
     text-decoration: none;
     color: black;
+}
+.nav-left ul li a:hover{
+    color:red;
+    /* background-color: brown; */
+    /* font-weight: bolder; */
 }
 
 .nav-left ul {
@@ -40,8 +46,8 @@
     font-size: 20px;
     /* background-color: rgb(235, 12, 16); */
 }
-  
-.form-input{
+
+.form-input {
     font-family: var(--font-1);
     padding: 0px 5px;
     padding-bottom: 4px;
@@ -50,21 +56,53 @@
     border: 2px solid black;
     border-radius: 5px;
     margin: 0 13px;
-    
+
 }
-.btn
-{
+
+.btn {
 
     font-family: var(--font-1);
     padding: 4px 11px;
     border: 2px solid black;
     border-radius: 5px;
-    cursor: pointer ;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color: brown;
 }
 
 .content {
-    height: 250px;
-    /* background-color: rgb(213, 177, 48); */
+    display: flex;
+    height: 320px;
+    background-color: rgb(147, 151, 223);
+    padding: 9px;
+}
+
+.content-left {
+    width: 50%;
+    font-family: var(--font-1);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.content-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    width: 50%;
+    height: 290px;
+    border: 2px solid black;
+    border-radius: 200px;
+
 }
 
 .footer {
