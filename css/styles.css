@@ -13,7 +13,7 @@
 }
 
 .nav-left {
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     /* background-color: rgb(14, 6, 246); */
 }
@@ -31,7 +31,7 @@
 .nav-left ul li a:hover{
     color:red;
     /* background-color: brown; */
-    /* font-weight: bolder; */
+    /* font-weight: bold; */
 }
 
 .nav-left ul {
@@ -104,9 +104,27 @@
     border-radius: 200px;
 
 }
-.articles{
+.home-articles{
     height: 500px;
+    padding-bottom: 12px;
     background-color: aquamarine;
+}
+.home-article{
+    display: flex;
+    padding :30px;
+}
+.home-article img{
+    width: 210px;
+}
+.home-article-content{
+    align-self: center;
+    padding:0px  20px;
+}
+.home-article-content h3{
+    padding-top: 10px;
+}
+.home-article-content span{
+    padding: 0px 10px;
 }
 .footer {
     height: 100px;
