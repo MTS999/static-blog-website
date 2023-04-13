@@ -18,6 +18,9 @@
 }
 
 .auto {
-    margin: auto;
+   margin: 15px auto 0 auto;
+}
+.border-r{
+    border-radius: 12px;
 }
 

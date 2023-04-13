@@ -5,10 +5,13 @@
 
 .navigation {
     height: 70px;
+    margin-top: 20px;
     /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 12px;
+
     /* font-family: var(--font-1); */
 }
 
@@ -74,6 +77,7 @@
 }
 
 .content {
+    /* margin:20px auto 0 auto; */
     display: flex;
     height: 320px;
     /* background-color: rgb(147, 151, 223); */
@@ -123,7 +127,8 @@
     margin :25px;
 }
 .home-article img{
-    width: 210px;
+    width: 224px;
+    height: 160px;
 }
 .home-article-content{
     align-self: center;
@@ -134,7 +139,7 @@
 }
 .home-article-content a{
     text-decoration: none;
-    color: --main-bg-color   ;
+    color: var(--main-bg-color)   ;
 }
 .home-article-content span{
     padding: 0px 10px;
