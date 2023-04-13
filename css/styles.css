@@ -13,7 +13,7 @@
 }
 
 .nav-left {
-    font-size: 25px;
+    font-size: 35px;
     display: flex;
     /* background-color: rgb(14, 6, 246); */
 }
@@ -31,7 +31,7 @@
 .nav-left ul li a:hover{
     color:red;
     /* background-color: brown; */
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
 .nav-left ul {
@@ -39,7 +39,7 @@
     /* justify-content: space-between; */
     align-items: center;
     margin: 0 77px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .nav-right {
@@ -78,8 +78,16 @@
     height: 320px;
     /* background-color: rgb(147, 151, 223); */
     padding: 9px;
+    position: relative;
 }
-
+.content::after{
+    content: "";
+    background-image: url(../img/typing.jpg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.20;
+} 
 .content-left {
     width: 50%;
     font-family: var(--font-1);
@@ -87,6 +95,7 @@
     /* align-items: center; */
     justify-content: center;
     flex-direction: column;
+    padding-left: 40px;
     
 }
 
@@ -105,13 +114,13 @@
 
 }
 .home-articles{
-    height: 500px;
-    padding-bottom: 12px;
-    background-color: aquamarine;
+    padding-top: 23px;
+    background-color: rgb(238, 226, 226);
+    margin-top: 23px;
 }
 .home-article{
     display: flex;
-    padding :30px;
+    margin :25px;
 }
 .home-article img{
     width: 210px;
@@ -122,6 +131,10 @@
 }
 .home-article-content h3{
     padding-top: 10px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: --main-bg-color   ;
 }
 .home-article-content span{
     padding: 0px 10px;
